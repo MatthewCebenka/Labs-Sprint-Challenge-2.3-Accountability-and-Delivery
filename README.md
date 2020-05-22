@@ -1,3 +1,4 @@
+Matthew Cebenka
 # Labs-Sprint-Challenge-2.3-Accountability-and-Delivery
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them by providing answers to questions related to working with others of your Labs product.
@@ -28,8 +29,12 @@ Any time that you've deviated from your original plan, as documented in your rel
 As you have now been in the process of delivering and building your product, we'd like to know what has changed along the way:
 
 - Describe how the requirements of the features you have been building/designing have changed.
+One of the biggest changes to come our way has been the ui design file. Our stake holder hired a UX designer
+to provide a redesign for a major ui component. There have also been new requirements for data vizualization in the form of a couple different mappping features.
 - What caused these requirements to change?
+Stake holder request and engeering considerations.
 - **Engineering Students:** What types of architectural requirements changed? Did you have to make any trade-offs or add any new packages/libraries or dependencies to your application's technical stack in order to meet the new changes? **Please be as specific as you can. Provide details via screenshots to Trello cards or your release canvases to support your response.**
+Material UI had to be added to speed up the development of a responsive design. Also various map libraries were considered in order to display data to the stake holders requirements. We settled on d3 for the maps.
 - **UX Students:** Describe any design patterns or user flows that had to change as a result of the requirements above. **Please be as specific as you can. Provide details via screenshots to design files or your release canvases to support your response.**
 - **Data Scientists:** Tell us about how your work has evolved from the beginning stages of finding and cleaning the data with which your team is working all the way down to delivering that data model through your project's data pipeline. **Please be as specific as you can. Provide details via screenshots to Trello cards, Python/Jypyter Notebooks or your release canvases to support your response.**
 
